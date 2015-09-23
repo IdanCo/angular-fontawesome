@@ -1,8 +1,12 @@
 {
-  "name": "angular-fontawesome",
-  "version": "0.4.0",
+  "name": "angular-fontawesome-accessible",
+  "version": "0.4.0-1",
   "author": "Paul Marbach <paul@picardylearning.com>",
-  "description": "Angular directive for FontAwesome",
+  "contributors": [{
+    "name": "Idan Cohen",
+    "email": "idan@idancohen.com"
+  }],
+  "description": "Angular directive for FontAwesome, with accessibility support",
   "scripts": {
     "test": "./node_modules/bower/bin/bower install; ./node_modules/karma/bin/karma start --browsers Firefox --single-run"
   },
@@ -17,7 +21,8 @@
   "keywords": [
     "angular",
     "fontawesome",
-    "directive"
+    "directive",
+    "accessibility"
   ],
   "devDependencies": {
     "bower": "1.3.12",
