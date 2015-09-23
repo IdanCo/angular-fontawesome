@@ -1,11 +1,10 @@
 {
-  "name": "angular-fontawesome-accessible",
-  "description": "Angular directive for FontAwesome, with accessibility support",
-  "version": "0.4.0-1",
-  "authors": [
-    "Paul Marbach <paul@picardylearning.com>",
-    "Idan Cohen <idan@idancohen.com>"
-  ]
+  "name": "angular-fontawesome",
+  "description": "Angular directive for FontAwesome",
+  "version": "0.4.0",
+  "main": [
+    "dist/angular-fontawesome.js"
+  ],
   "dependencies": {
     "angular": "^1.2",
     "font-awesome": "~4"
